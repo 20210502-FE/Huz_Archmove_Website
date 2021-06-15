@@ -1,0 +1,423 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.logo {
+    max-width: 61px;
+}
+
+.wrapper {
+    background-color: #FFFFFF;
+    max-width: calc(100% - 165px - 165px);
+    margin: 0 auto;
+}
+
+.button {
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    background-color: #FD665E;
+    color: #F7F7F7;
+    border: none;
+    width: 204px;
+    height: 56px;
+    padding: 8px 32px;
+}
+
+.header {
+    background-color: #FFFFFF;
+    color: #2B2B2B;
+}
+
+.header__wrapper {
+    display: flex;
+    margin: 0 auto;
+    padding: 28px 17px 42px 0;
+}
+
+.header__logo {
+    margin: 34px 50px;
+}
+
+.header__nav a {
+    color: #292929;
+}
+
+.header__nav-item {
+    font-size: 14px;
+    line-height: 40px;
+    font-style: normal;
+}
+
+.header__left .header__nav-item {
+    padding: 4px 24px;
+}
+
+.header__right .header__nav-item {
+    padding: 4px 24px;
+}
+
+.header__nav-button {
+    max-width: 99px;
+    height: 48px;
+    padding: 4px 24px;
+    border-radius: 4px;
+    margin-right: 51px;
+    margin-left: 40px;
+}
+
+.header__left, .header__right {
+    flex-basis: 50%;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.header__left ul, .header__right ul {
+    display: flex;
+}
+
+.header__right {
+    justify-content: flex-end;
+}
+
+.header__nav-item_icon img {
+    max-width: 14px;
+}
+
+/*BANNER SECTION*/
+.banner-wrapper {
+    padding-top: 24px;
+    margin-bottom: 112px;
+}
+
+.banner-wrapper h1 {
+    font-size: 120px;
+    line-height: 120px;
+    max-width: 870px;
+    margin-bottom: 47px;
+}
+
+.red {
+    color: #FD665E;
+}
+
+.banner-wrapper__content {
+    display: flex;
+}
+
+.banner-wrapper__content-description {
+    flex-basis: 30%;
+    max-width: 30%;
+    margin-right: 55px;
+}
+
+.banner-wrapper__content-description p {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 48px;
+}
+
+.banner-button {
+    max-width: 179px;
+}
+
+.banner-wrapper__content-image {
+    flex-basis: 70%;
+    max-width: 70%;
+    min-height: 480px;
+}
+
+/*SPECIALS SECTION*/
+.specials-wrapper {
+    margin-bottom: 128px;
+}
+.specials-wrapper__title {
+    display: flex;
+    justify-content: center;
+}
+
+.specials-wrapper h3 {
+    width: 535px;
+}
+
+.specials-wrapper__button {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 47px;
+    margin-top: -95px;
+}
+
+.button-left, .button-right {
+    border: none;
+    background-color: #FAFAFA;
+}
+
+.specials-wrapper a {
+    padding-top: 15px;
+    color: #000000;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+}
+
+.specials-wrapper__button a:hover {
+    color: #FD665E;
+}
+
+.specials-wrapper__images-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-column {
+    padding-right: 40px;
+}
+
+.flex-column_25 {
+    flex-basis: 25%;
+    max-width: 25%;
+}
+
+.flex-column-4{
+    padding-right: 0;
+    margin-right: -65px;
+}
+
+/*ADVANTAGES SECTION*/
+.advantages-wrapper__content {
+    display: flex;
+}
+.advantages-wrapper h3 {
+    width: 459px;
+    padding-right: 100px;
+    margin-right: 816px;
+}
+
+.advantages__image-wrapper, .advantages__description-wrapper {
+    flex-basis: 50%;
+    max-width: 50%;
+}
+
+.advantages__description-wrapper {
+    padding-left: 155px;
+}
+
+.box-text h6 {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.box-text{
+    width: 305px;
+    margin-bottom: 48px;
+    align-self: center;
+}
+
+.box-icons {
+    width: 48px;
+    height: 55px;
+    margin-right: 38px;
+    margin-bottom: 48px;
+    align-self: center;
+}
+.advantages__description-wrapper-box {
+    display: flex;
+}
+
+.advantages-wrapper__button {
+    margin-left: 79px;
+}
+
+/*reviews section*/
+.reviews-wrapper {
+    margin-bottom: 163px;
+}
+
+.reviews-wrapper h3{
+    width: 374px;
+    margin-top: 64px;
+}
+
+.reviews-wrapper__content {
+    display: flex;
+    width: 80%;
+    margin-left: 236px;
+}
+
+.reviews-wrapper__content-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -30px;
+}
+
+.button-left, .button-right {
+    border: none;
+    background-color: #FAFAFA;
+}
+
+.reviews-wrapper__content-button a {
+    padding-top: 15px;
+    color: #000000;
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+}
+
+.reviews-wrapper__content-button a:hover {
+    color: #FD665E;
+}
+
+.button-left:hover {
+    background-color: #F2F2F2;
+}
+
+.button-right:hover {
+    background-color: #F2F2F2;
+}
+
+.reviews-wrapper__content-blockquote p {
+    font-size: 32px;
+    line-height: 52px;
+    padding-bottom: 59px;
+}
+
+.reviews-wrapper__content-blockquote cite {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.reviews-wrapper__content img {
+    width: 57px;
+    height: 40px;
+    margin-right: 52px;
+}
+
+/*consultation section*/
+.consultation-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+}
+
+.consultation-wrapper h3 {
+    width: 521px;
+}
+
+.consultation-wrapper__description {
+    padding: 218px 14px  281px 123px;
+}
+
+.consultation-wrapper__description button {
+    padding: 0;
+}
+
+/*PARTNERS SECTION*/
+.partners-wrapper {
+    margin-bottom: 148px;
+}
+
+.partners-wrapper h3 {
+    margin-bottom: 56px;
+}
+
+.partners-wrapper__images-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.images-container__item-1 {
+    height: 57px;
+    width: 161px;
+}
+
+.images-container__item-2 {
+    width: 140px;
+    height: 139px;
+}
+
+.images-container__item-3 {
+    width: 210px;
+    height: 57px;
+}
+
+.images-container__item-4 {
+    width: 94px;
+    height: 62px;
+}
+
+.images-container__item-5 {
+    width: 213px;
+    height: 121px;
+}
+
+/*footer section*/
+.footer-wrapper {
+    display: flex;
+}
+
+.footer-left, .footer-right {
+    flex-basis: 50%;
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.footer-left__nav {
+    margin: 0 0 0 165px;
+    padding: 28px 17px 42px 0;
+}
+
+.footer-left ul {
+    display: flex;
+}
+
+.footer-left li {
+    margin-right: 48px;
+}
+
+.footer-right {
+    justify-content: flex-end;
+}
+
+.footer-right__logo {
+    margin: 0 165px;
+}
+
+.footer-left__nav a {
+    color: #000000;
+    font-size: 12px;
+    line-height: 40px;
+}
